@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<projectPlanning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="pps.xsd" 
+	year="2015">
+  <projects>
+    <project code="P100241">
+      <title>Toilets refurbishment - CON-01</title>
+      <startDate>2015-04-01</startDate>
+      <endDate>2015-06-04</endDate>
+      <commitments>
+        <hoursPerDay employee="100257">1</hoursPerDay>
+        <hoursPerDay employee="100272">4</hoursPerDay>
+        <hoursPerDay employee="100263">1</hoursPerDay>
+        <hoursPerDay employee="100278">8</hoursPerDay>
+        <hoursPerDay employee="100264">3</hoursPerDay>
+      </commitments>
+    </project>
+    <project code="P100575">
+      <title>Floor insulation - BPH-05</title>
+      <startDate>2015-05-01</startDate>
+      <endDate>2015-09-11</endDate>
+      <commitments>
+        <hoursPerDay employee="100257">1</hoursPerDay>
+        <hoursPerDay employee="100272">1</hoursPerDay>
+        <hoursPerDay employee="100263">8</hoursPerDay>
+        <hoursPerDay employee="100278">1</hoursPerDay>
+        <hoursPerDay employee="100264">7</hoursPerDay>
+      </commitments>
+    </project>
+    <project code="P100664">
+      <title>Floor insulation - WBH-04</title>
+      <startDate>2015-02-02</startDate>
+      <endDate>2015-03-31</endDate>
+      <commitments>
+        <hoursPerDay employee="100257">1</hoursPerDay>
+        <hoursPerDay employee="100272">2</hoursPerDay>
+        <hoursPerDay employee="100263">8</hoursPerDay>
+        <hoursPerDay employee="100264">8</hoursPerDay>
+      </commitments>
+    </project>
+    <project code="P100735">
+      <title>Surveillance cameras installation - MLH-05</title>
+      <startDate>2015-03-02</startDate>
+      <endDate>2015-03-26</endDate>
+      <commitments>
+        <hoursPerDay employee="100257">1</hoursPerDay>
+        <hoursPerDay employee="100272">2</hoursPerDay>
+        <hoursPerDay employee="100263">2</hoursPerDay>
+        <hoursPerDay employee="100278">1</hoursPerDay>
+        <hoursPerDay employee="100264">6</hoursPerDay>
+      </commitments>
+    </project>
+    <project code="P100790">
+      <title>Workspace rearrangement - MLH-00</title>
+      <startDate>2015-01-21</startDate>
+      <endDate>2015-03-26</endDate>
+      <commitments>
+        <hoursPerDay employee="100272">4</hoursPerDay>
+        <hoursPerDay employee="100263">1</hoursPerDay>
+      </commitments>
+    </project>
+  </projects>
+  <employees>
+    <employee number="100257">
+      <name>Sharon V. BUTLER</name>
+      <hourlyWage>71</hourlyWage>
+      <managedProjects>
+        <project code="P100241"></project>
+        <project code="P100664"></project>
+      </managedProjects>
+      <allocatedProjects>
+        <project code="P100735"></project>
+        <project code="P100241"></project>
+        <project code="P100664"></project>
+        <project code="P100575"></project>
+      </allocatedProjects>
+    </employee>
+    <employee number="100263">
+      <name>Helen R. TERRY</name>
+      <hourlyWage>33</hourlyWage>
+      <managedProjects>
+        <project code="P100790"></project>
+      </managedProjects>
+      <allocatedProjects>
+        <project code="P100735"></project>
+        <project code="P100241"></project>
+        <project code="P100790"></project>
+        <project code="P100664"></project>
+        <project code="P100575"></project>
+      </allocatedProjects>
+    </employee>
+    <employee number="100264">
+      <name>Nicholas M. GIBSON</name>
+      <hourlyWage>34</hourlyWage>
+      <allocatedProjects>
+        <project code="P100735"></project>
+        <project code="P100241"></project>
+        <project code="P100664"></project>
+        <project code="P100575"></project>
+      </allocatedProjects>
+    </employee>
+    <employee number="100272">
+      <name>Larry Y. JENSEN</name>
+      <hourlyWage>51</hourlyWage>
+      <allocatedProjects>
+        <project code="P100735"></project>
+        <project code="P100241"></project>
+        <project code="P100790"></project>
+        <project code="P100664"></project>
+        <project code="P100575"></project>
+      </allocatedProjects>
+    </employee>
+    <employee number="100278">
+      <name>Brandon U. PAYNE</name>
+      <hourlyWage>63</hourlyWage>
+      <managedProjects>
+        <project code="P100735"></project>
+        <project code="P100575"></project>
+      </managedProjects>
+      <allocatedProjects>
+        <project code="P100735"></project>
+        <project code="P100241"></project>
+        <project code="P100575"></project>
+      </allocatedProjects>
+    </employee>
+  </employees>
+</projectPlanning>

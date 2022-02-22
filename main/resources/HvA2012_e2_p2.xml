@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<projectPlanning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="pps.xsd" 
+	year="2012">
+  <projects>
+    <project code="P100029">
+      <title>Virtual workplaces - LWB-09</title>
+      <startDate>2012-06-19</startDate>
+      <endDate>2012-11-07</endDate>
+      <commitments>
+        <hoursPerDay employee="100312">1</hoursPerDay>
+        <hoursPerDay employee="100317">5</hoursPerDay>
+      </commitments>
+    </project>
+    <project code="P100302">
+      <title>Floor insulation - IWO-02</title>
+      <startDate>2012-01-31</startDate>
+      <endDate>2012-05-04</endDate>
+      <commitments>
+        <hoursPerDay employee="100312">5</hoursPerDay>
+        <hoursPerDay employee="100317">1</hoursPerDay>
+      </commitments>
+    </project>
+  </projects>
+  <employees>
+    <employee number="100312">
+      <name>Peter G. RAY</name>
+      <hourlyWage>35</hourlyWage>
+      <managedProjects>
+        <project code="P100029"></project>
+      </managedProjects>
+      <allocatedProjects>
+        <project code="P100029"></project>
+        <project code="P100302"></project>
+      </allocatedProjects>
+    </employee>
+    <employee number="100317">
+      <name>Joan H. NGUYEN</name>
+      <hourlyWage>20</hourlyWage>
+      <managedProjects>
+        <project code="P100302"></project>
+      </managedProjects>
+      <allocatedProjects>
+        <project code="P100029"></project>
+        <project code="P100302"></project>
+      </allocatedProjects>
+    </employee>
+  </employees>
+</projectPlanning>

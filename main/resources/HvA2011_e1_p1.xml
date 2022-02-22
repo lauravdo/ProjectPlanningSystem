@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<projectPlanning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="pps.xsd" 
+	year="2011">
+  <projects>
+    <project code="P100618">
+      <title>Workspace rearrangement - BPH-08</title>
+      <startDate>2011-02-10</startDate>
+      <endDate>2011-05-06</endDate>
+      <commitments>
+        <hoursPerDay employee="100324">1</hoursPerDay>
+      </commitments>
+    </project>
+  </projects>
+  <employees>
+    <employee number="100324">
+      <name>Carl Y. SILVA</name>
+      <hourlyWage>67</hourlyWage>
+      <managedProjects>
+        <project code="P100618"></project>
+      </managedProjects>
+      <allocatedProjects>
+        <project code="P100618"></project>
+      </allocatedProjects>
+    </employee>
+  </employees>
+</projectPlanning>

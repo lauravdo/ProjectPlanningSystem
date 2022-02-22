@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<projectPlanning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation="pps.xsd" 
+	year="2014">
+  <projects>
+    <project code="P100438">
+      <title>Workspace rearrangement - SCP-08</title>
+      <startDate>2014-03-12</startDate>
+      <endDate>2014-04-01</endDate>
+      <commitments>
+        <hoursPerDay employee="100304">3</hoursPerDay>
+        <hoursPerDay employee="100293">1</hoursPerDay>
+        <hoursPerDay employee="100297">6</hoursPerDay>
+        <hoursPerDay employee="100303">1</hoursPerDay>
+        <hoursPerDay employee="100286">1</hoursPerDay>
+      </commitments>
+    </project>
+  </projects>
+  <employees>
+    <employee number="100286">
+      <name>Samuel G. PEREZ</name>
+      <hourlyWage>25</hourlyWage>
+      <managedProjects>
+        <project code="P100438"></project>
+      </managedProjects>
+      <allocatedProjects>
+        <project code="P100438"></project>
+      </allocatedProjects>
+    </employee>
+    <employee number="100293">
+      <name>Virginia X. TORRES</name>
+      <hourlyWage>54</hourlyWage>
+      <allocatedProjects>
+        <project code="P100438"></project>
+      </allocatedProjects>
+    </employee>
+    <employee number="100297">
+      <name>Carolyn D. BROWN</name>
+      <hourlyWage>68</hourlyWage>
+      <allocatedProjects>
+        <project code="P100438"></project>
+      </allocatedProjects>
+    </employee>
+    <employee number="100303">
+      <name>Heather Z. HART</name>
+      <hourlyWage>66</hourlyWage>
+      <allocatedProjects>
+        <project code="P100438"></project>
+      </allocatedProjects>
+    </employee>
+    <employee number="100304">
+      <name>Jose U. KING</name>
+      <hourlyWage>54</hourlyWage>
+      <allocatedProjects>
+        <project code="P100438"></project>
+      </allocatedProjects>
+    </employee>
+  </employees>
+</projectPlanning>

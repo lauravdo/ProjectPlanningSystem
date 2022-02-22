@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="projectPlanning">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="projects" minOccurs="0"/>
+                <xs:element ref="employees" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute name="year" type="xs:integer" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="projects">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="project" type="ProjectType" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="employees">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="employee" type="EmployeeType" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="ProjectType">
+        <xs:sequence>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="startDate" type="xs:date"/>
+            <xs:element name="endDate" type="xs:date"/>
+            <xs:element name="commitments" type="CommitmentListType" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="code" type="xs:NCName" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="CommitmentListType">
+        <xs:sequence>
+            <xs:element name="hoursPerDay" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:simpleContent>
+                      <xs:extension base="xs:integer">
+                        <xs:attribute name="employee" type="xs:integer"/>
+                      </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="EmployeeType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="hourlyWage" type="xs:string"/>
+            <xs:element name="managedProjects" type="ProjectListType" minOccurs="0"/>
+            <xs:element name="allocatedProjects" type="ProjectListType" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="number" type="xs:integer" use="required"/>
+    </xs:complexType>
+
+
+    <xs:complexType name="ProjectListType">
+        <xs:sequence>
+            <xs:element name="project" minOccurs="1" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:attribute name="code" type="xs:NCName" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
